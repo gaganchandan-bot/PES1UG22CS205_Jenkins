@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o pes1ug22cs205-1 PES1UG22CS205_Jenkins/pes1ug22cs205.cpp'
+                    sh 'g++ -o pes1ug22cs205-1 PES1UG22CS205_Jenkins/pes1ug22cs205.cppp'
                 }
             }
         }
